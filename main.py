@@ -1,17 +1,5 @@
 '''
-# opencv 이미지 불러오기
-import cv2
 
-img_file = 'image/jm.jpg'
-save_file = 'image/jm_gray.jpg'
-img = cv2.imread(img_file, cv2.IMREAD_GRAYSCALE)
-if img is not None:
-    cv2.imshow('IMG', img)
-    cv2.imwrite(save_file, img)
-    cv2.waitKey()
-    cv2.destroyAllWindows()
-else:
-    print("NO IMAGE FILE.")
 
 '''
 
